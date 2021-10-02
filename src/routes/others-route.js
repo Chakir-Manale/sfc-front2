@@ -10,6 +10,7 @@ import FAQ from '../components/pages/others/faq';
 import ComingSoon from '../components/pages/others/coming-soon';
 import Login from '../components/pages/others/login';
 import ErrorPage from '../components/pages/others/404';
+import Services from "../components/pages/others/services";
 
 export default function OthersRoute() {
     return (
@@ -18,6 +19,7 @@ export default function OthersRoute() {
 
             <Layout>
                 <Route exact path={ `${process.env.PUBLIC_URL}/pages/about` } component={ AboutOne } />
+                <Route exact path={ `${process.env.PUBLIC_URL}/pages/services` } component={ Services } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/pages/about-2` } component={ AboutTwo } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/pages/contact` } component={ ContactOne } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/pages/contact-2` } component={ ContactTwo } />
