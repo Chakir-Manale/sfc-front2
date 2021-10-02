@@ -93,7 +93,7 @@ function App( props ) {
         } else {
             setContainer( "container" );
         }
-    } )
+    } );
 
     return (
         <>

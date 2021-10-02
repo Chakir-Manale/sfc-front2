@@ -92,3 +92,5 @@ export const SEND_CONTACT_MESSAGE = "SEND_CONTACT_MESSAGE";
 
 //Addresses
 export const SAVE_ORDER = "SAVE_ORDER";
+
+export const GET_BLOG_ARTICLES = "GET_BLOG_ARTICLES";

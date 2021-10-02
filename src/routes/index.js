@@ -9,6 +9,7 @@ import {loginUser} from '../actions/userActions';
 import {getAllVariants} from '../actions/variantActions';
 import {getAllProducts} from '../actions/productActions';
 import {getCartList} from '../actions/cartlistActions';
+import {getArticles} from '../actions/blogActions';
 
 import {connect} from "react-redux";
 // import Layout from "../components/app";
@@ -24,11 +25,7 @@ function AppRoot(props) {
 
     useEffect(() => {
         scrollTop();
-        props.getAllCategories();
-        props.getAllVariants();
-        props.getAllProducts();
-        props.getCartList();
-
+        props.getArticles();
     }, [])
 
     return (
@@ -46,19 +43,16 @@ function AppRoot(props) {
 }
 
 export const mapStateToProps = (state, props) => {
+    console.log("routes/index: ", state);
     return {
-        categories: state.categories.categories ? state.categories.categories : [],
         user: state.user.user ? state.user.user : {},
         isLogged: state.user.isLogged ? state.user.isLogged : false,
-        cartlists: state.usercartlist.cartlist ? state.usercartlist.cartlist : [],
-
+        articles: state.blog.articles ? state.blog.articles : [],
     }
 }
 
 export default withRouter(connect(mapStateToProps, {
-    getAllVariants,
-    getAllProducts,
-    getAllCategories,
+    getArticles,
     loginUser,
     getCartList
 })(AppRoot));
