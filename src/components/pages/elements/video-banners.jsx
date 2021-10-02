@@ -19,10 +19,10 @@ function VideoBanners( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Video Banners</title>
+                <title>SFC | Video Banners</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Video Banners</h1>
+            <h1 className="d-none">SFC - Video Banners</h1>
 
             <div className="main">
 

@@ -16,10 +16,10 @@ function Listing() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Listing</title>
+                <title>SFC | Blog Listing</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Listing</h1>
+            <h1 className="d-none">SFC - Blog Listing</h1>
 
             <div className="main">
                 <PageHeader title="Blog Listing" subTitle="Blog" />

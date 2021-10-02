@@ -62,10 +62,10 @@ function SingleDefault( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Default With Sidebar</title>
+                <title>SFC | Blog Default With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Default With Sidebar</h1>
+            <h1 className="d-none">SFC - Blog Default With Sidebar</h1>
 
             <div className="main">
                 <PageHeader title="Default With Sidebar" subTitle="Single Post" />

@@ -10,10 +10,10 @@ function IconBoxes() {
     return (
         <>
             <Helmet>
-                <title>Flow | Icon Boxes</title>
+                <title>SFC | Icon Boxes</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Icon Boxes</h1>
+            <h1 className="d-none">SFC - Icon Boxes</h1>
 
             <div className="main">
 

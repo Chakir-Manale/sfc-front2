@@ -11,10 +11,10 @@ function Accordions() {
     return (
         <>
             <Helmet>
-                <title>Flow | Accordions</title>
+                <title>SFC | Accordions</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Accordions</h1>
+            <h1 className="d-none">SFC - Accordions</h1>
 
             <div className="main">
                 <PageHeader title="Accordions" subTitle="Elements" />

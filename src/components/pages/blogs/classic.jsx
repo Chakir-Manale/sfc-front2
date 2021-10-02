@@ -15,10 +15,10 @@ function Classic() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Classic</title>
+                <title>SFC | Blog Classic</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Classic</h1>
+            <h1 className="d-none">SFC - Blog Classic</h1>
 
             <div className="main">
                 <PageHeader title="Blog Classic" subTitle="Blog" />

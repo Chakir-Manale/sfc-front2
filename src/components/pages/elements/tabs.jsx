@@ -10,10 +10,10 @@ function ElementTabs() {
 	return (
 		<>
 			<Helmet>
-				<title>Flow | Tabs</title>
+				<title>SFC | Tabs</title>
 			</Helmet>
 
-			<h1 className="d-none">Flow - Tabs</h1>
+			<h1 className="d-none">SFC - Tabs</h1>
 
 			<div className="main">
 

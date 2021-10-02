@@ -25,10 +25,10 @@ function Testimonials() {
     return (
         <>
             <Helmet>
-                <title>Flow | Testimonials</title>
+                <title>SFC | Testimonials</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Testimonials</h1>
+            <h1 className="d-none">SFC - Testimonials</h1>
 
             <div className="main">
                 <PageHeader title="Testimonials" subTitle="Elements" />

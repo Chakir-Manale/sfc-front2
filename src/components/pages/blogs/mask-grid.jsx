@@ -21,10 +21,10 @@ export default function MaskGrid() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Mask Grid</title>
+                <title>SFC | Blog Mask Grid</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Mask Grid</h1>
+            <h1 className="d-none">SFC - Blog Mask Grid</h1>
 
             <div className="main">
                 <PageHeader title="Blog Mask Grid" subTitle="Blog" />

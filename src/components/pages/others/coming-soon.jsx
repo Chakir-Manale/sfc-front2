@@ -20,10 +20,10 @@ function ComingSoon() {
     return (
         <div className="soon">
             <Helmet>
-                <title>Flow - Coming Soon Page</title>
+                <title>SFC - Coming Soon Page</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Coming Soon Page</h1>
+            <h1 className="d-none">SFC - Coming Soon Page</h1>
 
             <div className="container">
                 <div className="row">

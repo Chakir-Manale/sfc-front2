@@ -19,10 +19,10 @@ function AboutTwo() {
     return (
         <div className="main">
             <Helmet>
-                <title>Flow - About Page</title>
+                <title>SFC - About Page</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - About Page</h1>
+            <h1 className="d-none">SFC - About Page</h1>
 
             <PageHeader title="About us 2" subTitle="Pages" />
             <Breadcrumb title="About Us 2" parent1={ [ "Pages", "pages/about" ] } />

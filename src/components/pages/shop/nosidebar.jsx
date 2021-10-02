@@ -25,10 +25,10 @@ function NoSideBar( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Shop No Sidebar</title>
+                <title>SFC | Shop No Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Shop No Sidebar</h1>
+            <h1 className="d-none">SFC - Shop No Sidebar</h1>
 
             <div className="main">
                 <PageHeader title={ title[ type ] } subTitle="Shop" />

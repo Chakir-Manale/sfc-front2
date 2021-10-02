@@ -30,10 +30,10 @@ export default function ExtendedInfo( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Product Extended Info</title>
+                <title>SFC | Product Extended Info</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Product Extended Info</h1>
+            <h1 className="d-none">SFC - Product Extended Info</h1>
 
             <div className="main">
                 <Breadcrumb

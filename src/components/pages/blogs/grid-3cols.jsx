@@ -21,10 +21,10 @@ export default function Grid3Cols() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Grid 3 Cols</title>
+                <title>SFC | Blog Grid 3 Cols</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Grid 3 Cols</h1>
+            <h1 className="d-none">SFC - Blog Grid 3 Cols</h1>
 
             <div className="main">
 

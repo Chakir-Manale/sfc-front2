@@ -20,10 +20,10 @@ export default function CTA() {
     return (
         <>
             <Helmet>
-                <title>Flow | Call To Action</title>
+                <title>SFC | Call To Action</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Call To Action</h1>
+            <h1 className="d-none">SFC - Call To Action</h1>
 
             <div className="main">
                 <PageHeader title="Call to Action" subTitle="Elements" />

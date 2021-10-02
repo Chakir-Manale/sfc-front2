@@ -41,10 +41,10 @@ function ProductCategory( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Product Category</title>
+                <title>SFC | Product Category</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Product Category</h1>
+            <h1 className="d-none">SFC - Product Category</h1>
 
             <div className="main">
                 <PageHader title={ title[ grid ] } subTitlte="Shop" />

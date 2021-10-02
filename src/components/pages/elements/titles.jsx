@@ -13,10 +13,10 @@ function Titles() {
     return (
         <>
             <Helmet>
-                <title>Flow | Titles</title>
+                <title>SFC | Titles</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Titles</h1>
+            <h1 className="d-none">SFC - Titles</h1>
 
             <div className="main">
                 <PageHeader title="Titles" subTitle="Elements" />

@@ -18,10 +18,10 @@ function ShopMarket( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Shop Market</title>
+                <title>SFC | Shop Market</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Shop Market</h1>
+            <h1 className="d-none">SFC - Shop Market</h1>
 
             <div className="main shop-market">
                 <PageHeader title={ "Shop Market" } subTitle="Shop" />

@@ -19,10 +19,10 @@ export default function Buttons() {
 	return (
 		<>
 			<Helmet>
-				<title>Flow | Buttons</title>
+				<title>SFC | Buttons</title>
 			</Helmet>
 
-			<h1 className="d-none">Flow - Buttons</h1>
+			<h1 className="d-none">SFC - Buttons</h1>
 
 			<div className="main">
 				<PageHeader title="Buttons" subTitle="Elements" />

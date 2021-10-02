@@ -30,10 +30,10 @@ function MasonryProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Product Masonry StickyInfo</title>
+                <title>SFC | Product Masonry StickyInfo</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Product Masonry StickyInfo</h1>
+            <h1 className="d-none">SFC - Product Masonry StickyInfo</h1>
 
             <div className="main">
                 <Breadcrumb

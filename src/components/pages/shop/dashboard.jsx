@@ -11,10 +11,10 @@ function DashBoard() {
     return (
         <>
             <Helmet>
-                <title>Flow | My Account</title>
+                <title>SFC | My Account</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - My Account</h1>
+            <h1 className="d-none">SFC - My Account</h1>
 
             <div className="main">
                 <PageHeader title="My Account" subTitle="Shop" />

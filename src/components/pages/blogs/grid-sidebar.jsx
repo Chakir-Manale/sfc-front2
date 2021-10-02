@@ -22,10 +22,10 @@ export default function GridSidebar() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Grid Sidebar</title>
+                <title>SFC | Blog Grid Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Grid Sidebar</h1>
+            <h1 className="d-none">SFC - Blog Grid Sidebar</h1>
 
             <div className="main">
                 <PageHeader title="Blog Grid With Sidebar" subTitle="Blog" />

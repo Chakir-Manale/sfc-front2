@@ -59,10 +59,10 @@ function SingleFullWidthSidebar( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Fullwidth No Sidebar</title>
+                <title>SFC | Blog Fullwidth No Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Fullwidth No Sidebar</h1>
+            <h1 className="d-none">SFC - Blog Fullwidth No Sidebar</h1>
 
             <div className="main single-2">
                 <Breadcrumb title="Fullwidth With Sidebar" parent1={ [ "Blog", "blog/classic" ] } adClass="mb-0 border-bottom-0" />

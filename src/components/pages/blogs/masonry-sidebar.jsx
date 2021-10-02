@@ -22,10 +22,10 @@ export default function MasonrySidebar() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Masonry Sidebar</title>
+                <title>SFC | Blog Masonry Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Masonry Sidebar</h1>
+            <h1 className="d-none">SFC - Blog Masonry Sidebar</h1>
 
             <div className="main">
 

@@ -14,10 +14,10 @@ function FAQ() {
     return (
         <div className="main">
             <Helmet>
-                <title>Flow - CGU</title>
+                <title>SFC - CGU</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - CGU</h1>
+            <h1 className="d-none">SFC - CGU</h1>
 
             <PageHeader title="C.G.U" subTitle="Pages"/>
             <Breadcrumb title="CGU" parent1={["Pages", "pages/about"]}/>

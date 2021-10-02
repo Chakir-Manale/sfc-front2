@@ -11,10 +11,10 @@ export default function Banners() {
 	return (
 		<>
 			<Helmet>
-				<title>Flow | Banners</title>
+				<title>SFC | Banners</title>
 			</Helmet>
 
-			<h1 className="d-none">Flow - Banners</h1>
+			<h1 className="d-none">SFC - Banners</h1>
 
 			<div className="main">
 				<PageHeader title="Banners" subTitle="Elements" />

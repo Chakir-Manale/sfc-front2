@@ -9,10 +9,10 @@ function Typography() {
     return (
         <>
             <Helmet>
-                <title>Flow | Typography</title>
+                <title>SFC | Typography</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Typography</h1>
+            <h1 className="d-none">SFC - Typography</h1>
 
             <div className="main">
 

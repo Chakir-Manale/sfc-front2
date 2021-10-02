@@ -27,10 +27,10 @@ function Products( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Products</title>
+                <title>SFC | Products</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Products</h1>
+            <h1 className="d-none">SFC - Products</h1>
 
             <div className="main no-span">
                 <PageHeader title="PRODUCTS" subTitle="Elements" />

@@ -9,10 +9,10 @@ function ContactTwo() {
 	return (
 		<div className="main">
 			<Helmet>
-				<title>Flow - Contact Page</title>
+				<title>SFC - Contact Page</title>
 			</Helmet>
 
-			<h1 className="d-none">Flow - Contact Page</h1>
+			<h1 className="d-none">SFC - Contact Page</h1>
 
 			<PageHeader title="Contact us 2" subTitle="Pages" />
 			<Breadcrumb title="Contact Us 2" parent1={ [ "pages", "pages/about" ] } adClass="border-0 mb-0" />

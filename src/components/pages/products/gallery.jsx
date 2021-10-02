@@ -30,10 +30,10 @@ export default function GalleryProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Product Gallery</title>
+                <title>SFC | Product Gallery</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Product Gallery</h1>
+            <h1 className="d-none">SFC - Product Gallery</h1>
 
             <div className="main">
                 <div className="page-content">

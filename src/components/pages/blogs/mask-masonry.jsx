@@ -21,10 +21,10 @@ export default function MaskMasonry() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Mask Masonry</title>
+                <title>SFC | Blog Mask Masonry</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Mask Masonry</h1>
+            <h1 className="d-none">SFC - Blog Mask Masonry</h1>
 
             <div className="main">
                 <PageHeader title="Blog Mask Masonry" subTitle="Blog" />

@@ -20,10 +20,10 @@ export default function Portofolios() {
     return (
         <>
             <Helmet>
-                <title>Flow | Portfolio</title>
+                <title>SFC | Portfolio</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Portfolio</h1>
+            <h1 className="d-none">SFC - Portfolio</h1>
 
             <div className="main">
                 <PageHeader title="Portfolio" subTitle="Elements" />

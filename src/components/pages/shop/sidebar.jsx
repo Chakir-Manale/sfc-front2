@@ -18,10 +18,10 @@ function ShopList( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Shop With Sidebar</title>
+                <title>SFC | Shop With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Shop With Sidebar</h1>
+            <h1 className="d-none">SFC - Shop With Sidebar</h1>
 
             <div className="main">
                 <PageHeader title={ titles[ grid ] } subTitle="Shop" />

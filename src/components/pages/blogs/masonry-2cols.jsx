@@ -21,10 +21,10 @@ export default function Masonry2Cols() {
     return (
         <>
             <Helmet>
-                <title>Flow | Blog Masonry 2 Cols</title>
+                <title>SFC | Blog Masonry 2 Cols</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Blog Masonry 2 Cols</h1>
+            <h1 className="d-none">SFC - Blog Masonry 2 Cols</h1>
 
             <div className="main">
                 <PageHeader title="Blog Masonry 2 Columns" subTitle="Blog" />

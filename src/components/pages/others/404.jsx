@@ -9,10 +9,10 @@ function ErrorPage() {
     return (
         <div className="main">
             <Helmet>
-                <title>Flow - 404 Page</title>
+                <title>SFC - 404 Page</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - 404 Page</h1>
+            <h1 className="d-none">SFC - 404 Page</h1>
 
             <Breadcrumb title="404" parent1={ [ "Pages", "pages/about" ] } adClass="border-0 mb-0" />
 

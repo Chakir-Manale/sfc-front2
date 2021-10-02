@@ -36,10 +36,10 @@ function SidebarProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Flow | Boxed With Sidebar</title>
+                <title>SFC | Boxed With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Boxed With Sidebar</h1>
+            <h1 className="d-none">SFC - Boxed With Sidebar</h1>
 
             <div className="main">
                 <Breadcrumb

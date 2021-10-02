@@ -15,10 +15,10 @@ function BlogPosts() {
 	return (
 		<>
 			<Helmet>
-				<title>Flow | Blog Posts</title>
+				<title>SFC | Blog Posts</title>
 			</Helmet>
 
-			<h1 className="d-none">Flow - Blog Posts</h1>
+			<h1 className="d-none">SFC - Blog Posts</h1>
 
 			<div className="main">
 				<PageHeader title="Blog Posts" subTitle="Elements" />

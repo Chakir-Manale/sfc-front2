@@ -48,10 +48,10 @@ function CMIFail(props) {
     return (
         <>
             <Helmet>
-                <title>Flow | Checkout</title>
+                <title>SFC | Checkout</title>
             </Helmet>
 
-            <h1 className="d-none">Flow - Checkout</h1>
+            <h1 className="d-none">SFC - Checkout</h1>
 
             <div className="main">
 
