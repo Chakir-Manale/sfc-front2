@@ -29,7 +29,6 @@ function IndexSixteen(props) {
 
 
     let articles = props.articles;
-    console.log("articles", articles);
 
     return (
         <>
@@ -243,24 +242,22 @@ function IndexSixteen(props) {
                     </div>
                 </div>
                 <div className="container">
-                    <h1 className="section-title">latest <span>news</span></h1>
+                    <h1 className="section-title">latest <span>articles</span></h1>
 
                     <OwlCarousel adClass="owl-simple" carouselOptions={mainSlider2}>
                         {
                             articles.map((article, index) =>
-                                <Link to="#" key={index} className={"latest-news__item"}>
+                                <Link to={`${process.env.PUBLIC_URL}/blog/single/${article.id}`} key={index}
+                                      className={"latest-news__item"}>
                                     <div className="inner-block">
                                         <div className="img">
-                                           {/* <img src="assets/images/jpg/latest-news1.jpg"/>*/}
-                                           <img
+                                            {/* <img src="assets/images/jpg/latest-news1.jpg"/>*/}
+                                            <img
                                                 src={`${process.env.REACT_APP_API_URL}/uploads/posts/` + article.fileName}
                                                 alt="product back"/>
                                             <h1 className="date">{article.createdAt}</h1>
                                         </div>
                                         <h4 className="title">{article.titleFr}</h4>
-                                        <p className="text">
-                                            {article.content}
-                                        </p>
                                         <span className="read-more-2">read more</span>
                                     </div>
                                 </Link>

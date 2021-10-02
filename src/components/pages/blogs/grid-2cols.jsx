@@ -2,16 +2,7 @@ import React, { useEffect } from 'react';
 import isotope from 'isotope-layout';
 import imagesLoaded from 'imagesloaded';
 import { Helmet } from 'react-helmet';
-
-// import Custom Components
-import PageHeader from '../../common/page-header';
-import Breadcrumb from '../../common/breadcrumb';
-import PostSix from '../../features/post/post-six';
-import Pagination from '../../features/pagination';
-
 import { isotopeLoad } from '../../../utils';
-
-import posts from '../../../mock_data/posts';
 
 export default function Grid2Cols() {
     useEffect( () => {
@@ -34,10 +25,10 @@ export default function Grid2Cols() {
                 </div>
             </div>
             <div className="container">
-                <h1 className="section-title">Latest <span>news</span></h1>
+                <h1 className="section-title">Latest <span>Articles</span></h1>
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li className="breadcrumb-item active">Latest News</li>
+                    <li className="breadcrumb-item"><a href="/">Home</a></li>
+                    <li className="breadcrumb-item active">Latest articles</li>
                 </ol>
             </div>
         </header>
@@ -89,98 +80,98 @@ export default function Grid2Cols() {
                     <span className="read-more-2">read more</span>
                 </a>
                 <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news4.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                <a href="blog-details_left.html" className="item">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news5.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                <a href="blog-details_left.html" className="item">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news6.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                <a href="blog-details_left.html" className="item">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news7.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                <a href="blog-details_left.html" className="item">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news8.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <a href="blog-details_left.html" class="item">
-                    <div class="img">
+                <a href="blog-details_left.html" className="item">
+                    <div className="img">
                         <img src="assets/images/jpg/latest-news9.jpg"/>
-                        <span class="date">Now 28. 2019</span>
+                        <span className="date">Now 28. 2019</span>
                     </div>
-                    <h4 class="title">Improvements in Technology</h4>
-                    <p class="text">
+                    <h4 className="title">Improvements in Technology</h4>
+                    <p className="text">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                     </p>
-                    <span class="read-more-2">read more</span>
+                    <span className="read-more-2">read more</span>
                 </a>
-                <ul class="my-pagination">
-                    <li class="disabled">
-                        <span class="fa fa-angle-left"></span>
+                <ul className="my-pagination">
+                    <li className="disabled">
+                        <span className="fa fa-angle-left"></span>
                     </li>
-                    <li class="active">
+                    <li className="active">
                         <a href="#">01</a>
                     </li>
-                    <li class="">
+                    <li className="">
                         <a href="#">02</a>
                     </li>
-                    <li class="">
+                    <li className="">
                         <a href="#">03</a>
                     </li>
-                    <li class="dotted">
+                    <li className="dotted">
                         <p>...</p>
                     </li>
-                    <li class="">
+                    <li className="">
                         <a href="#">09</a>
                     </li>
-                    <li class="">
-                        <span class="fa fa-angle-right"></span>
+                    <li className="">
+                        <span className="fa fa-angle-right"></span>
                     </li>
                 </ul>
             </div>

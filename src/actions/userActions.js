@@ -81,7 +81,6 @@ export const getAllAreas = (p) => async dispatch => {
 // login User Action
 export const registerUser = (email, firstName, lastName, username, password, role, addresses, phoneNumbers, gender) => async dispatch => {
 
-    console.log(`/users`, email, firstName, lastName, username, password, role, addresses, phoneNumbers, gender);
     const obj = await axios.post(`${API_URL}/users`, {
         email,
         firstName,

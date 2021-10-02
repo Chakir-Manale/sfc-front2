@@ -11,30 +11,12 @@ function Header(props) {
     const {t, i18n} = useTranslation();
     const {wishlist, logo = "assets/images/logo.png", container = "container"} = props;
     let isLogged = props.isLogged;
-    const [keysearch, setKeysearch] = useState();
-
-
-    const dispatch = useDispatch();
-    const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);   
-    }
-
-    function openLoginModal(e) {
-        showModal('login'); //todo
-        e.preventDefault();
-    }
 
     useEffect(() => {
         if (isLogged) {
-
         }
     }, [isLogged])
 
-
-    function logoutUser(e) {
-        props.logoutUser();
-        e.preventDefault();
-    }
 
     return (
        <>
@@ -42,7 +24,7 @@ function Header(props) {
         <div className="container">
 
             <div className="header-top__logo" style={{display:"flex"}}>
-                <a href="index.html">
+                <a href="/">
                     <img src="assets/images/logo.png" alt="Space-For-Change" style={{maxWidth:50+"px"}}/>
                 </a>
                 <div className="header-top__call-text">
@@ -85,11 +67,7 @@ function Header(props) {
 
             <div className="navbar-logo">
                 <a href="/">
-                    <svg id="logo-white.svg" width="116.09" height="39" viewBox="0 0 116.09 39">
-                        <path className="cls-1"
-                              d="M1045.89,144.338l5.7-9.565,5.87,8.679,5.87-8.856,5.87,9.742,7.83,0.176s-3.69,9.734-19.57,19.485c0,0-9.61-5.766-14.95-12.575h4.81a69.279,69.279,0,0,0,10.14,8.146s8.41-5.393,12.81-11.336h-3.38l-3.74-6.376-5.69,8.5-5.7-8.5-3.73,6.376h-8.01s-9.48-12.717,2.67-21.43c7.78-4.687,14.59,1.239,14.59,1.239s6.41-5.146,13.88-1.948,7.96,12.345,6.94,15.231h-3.74s2.4-9.573-5.87-12.22a10.836,10.836,0,0,0-10.85,3.365s-4.05-4.127-9.26-3.72-11.16,5.969-6.58,15.587h4.09Z"
-                              transform="translate(-1036.5 -125)"/>
-                    </svg>
+                    <img src="assets/images/logo.png" alt="Space-For-Change" style={{maxWidth:50+"px"}}/>
                 </a>
             </div>
 
@@ -102,7 +80,7 @@ function Header(props) {
                 <ul className="navbar__menu">
                     <li className="navbar__menu-item">
                         <Link to={`${process.env.PUBLIC_URL}`} className="navbar__menu-link active">
-                            <T id={"HOME.PAGE"}/>
+                            Home
                         </Link>
                     </li>
 
@@ -123,23 +101,10 @@ function Header(props) {
                             Blog
                         </Link>
                     </li>
-
-                    <li className="navbar__menu-item">
-                        <a className="navbar__menu-link" href="#">Contacts</a>
-                        <ul className="navbar__submenu">
-                            <li className="navbar__submenu-item">
-                                <a href="contact.html" className="navbar__submenu-link">Contact</a>
-                            </li>
-
-                            <li className="navbar__submenu-item">
-                                <a href="contact-2.html" className="navbar__submenu-link">Contact-2</a>
-                            </li>
-                        </ul>
-                    </li>
                 </ul>
 
                 <div className="navbar__right">
-                    <a href="#" className="btn btn_pink" id="popup-form-open">Post Your Own Articles</a>
+                    <a href="https://workspace-sfc.herokuapp.com/" target={"_blank"} className="btn btn_pink" id="popup-form-open">Post Your Own Articles</a>
                 </div>
             </div>
 

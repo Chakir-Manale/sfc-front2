@@ -43,7 +43,6 @@ function AppRoot(props) {
 }
 
 export const mapStateToProps = (state, props) => {
-    console.log("routes/index: ", state);
     return {
         user: state.user.user ? state.user.user : {},
         isLogged: state.user.isLogged ? state.user.isLogged : false,

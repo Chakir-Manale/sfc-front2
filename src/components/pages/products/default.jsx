@@ -1,20 +1,11 @@
 import React, {useEffect} from 'react';
 import imagesLoaded from 'imagesloaded';
 import {Helmet} from 'react-helmet';
-
 import MediaOne from './partials/media/media-one';
 import ProductDetailOne from './partials/details/detail-one';
 import DescOne from './partials/description/desc-one';
-// import RelatedProducts from './partials/related-products';
-// import StickyBar from './partials/sticky-bar';
-
-// import Breadcrumb from '../../common/breadcrumb';
-// import QuickView from '../../features/product/common/quickview';
-
 import {productGallery} from '../../../utils';
 import RelatedProducts from "./partials/related-products";
-// import {Link} from "react-router-dom";
-// import {T} from "../../common/partials/trans";
 
 function SingleProduct(props) {
     let productId = props.match.params.id;
@@ -33,10 +24,10 @@ function SingleProduct(props) {
     return (
         <>
             <Helmet>
-                <title>Flow</title>
+                <title>SFC</title>
             </Helmet>
 
-            <h1 className="d-none">Flow</h1>
+            <h1 className="d-none">SFC</h1>
             <div className="main">
                 {/*<Breadcrumb*/}
                 {/*    title="Default"*/}

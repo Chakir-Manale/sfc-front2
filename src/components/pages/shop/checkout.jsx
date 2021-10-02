@@ -13,7 +13,6 @@ function Checkout(props) {
     // const { cartlist, total } = props;
     // const shippingPrice = {"free": 0, "standard": 10, "express": 20};
     // const shippingObj = {"free": "Free shipping", "standard": "Standard", "express": "Express"};
-    console.log("pp", props)
     let cartlistv = props.cartlistv;
     let cartlistp = props.cartlistp;
     let cartSellingPrice = props.cartSellingPrice;
