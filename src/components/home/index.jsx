@@ -190,42 +190,31 @@ function IndexSixteen(props) {
 
                     <Accordion adClass="accordion-rounded">
 
-                        <Card title="1.How do I post my own article?" adClass="accardion__item wow ">
-                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Officia ipsum, voluptatum. Pariatur expedita facere fugit, doloribus reiciendis
-                                repellendus
-                                quaerat? Nihil ad eos molestias numquam quas eveniet sit suscipit, nostrum vel ipsa
-                                voluptate nobis facere in quos.
+                        <Card title="1.How would you benefit from our content?" adClass="accardion__item wow ">
+                            <p className="">
+                                Our education plateform works to give a clean knowledge in various fields and allows you to share your thoughts and opinions.
                             </p>
                         </Card>
 
-                        <Card title="2.How do I get a copy of my records to another
-                                provider?" adClass="accardion__item wow ">
-                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Officia ipsum, voluptatum. Pariatur expedita facere fugit, doloribus reiciendis
-                                repellendus
-                                quaerat? Nihil ad eos molestias numquam quas eveniet sit suscipit, nostrum vel ipsa
-                                voluptate nobis facere in quos.
+                        <Card title="2.How to post your own article?" adClass="accardion__item wow ">
+                            <p className="">
+                                To post your own article, click on the green botton above “POST MY OWN ARTICLE” to create your account,
+                                and start sharing your own articles!
                             </p>
                         </Card>
 
-                        <Card title="3.Is there a charge for copies of my medical
-                                record?" adClass="accardion__item wow ">
-                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Officia ipsum, voluptatum. Pariatur expedita facere fugit, doloribus reiciendis
-                                repellendus
-                                quaerat? Nihil ad eos molestias numquam quas eveniet sit suscipit, nostrum vel ipsa
-                                voluptate nobis facere in quos.
+                        <Card title="3.Do we revise all articles that are published by the others?" adClass="accardion__item wow ">
+                            <p className="">
+                                When someone posts their article, it is not directly published without our approval.
+                                The article must undergo a very strict evaluation process to be accepted and then published on our plateform.
                             </p>
                         </Card>
 
-                        <Card title="4.How do I assure that my person I designate has
-                                access to my medical record?" adClass="accardion__item wow ">
-                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Officia ipsum, voluptatum. Pariatur expedita facere fugit, doloribus reiciendis
-                                repellendus
-                                quaerat? Nihil ad eos molestias numquam quas eveniet sit suscipit, nostrum vel ipsa
-                                voluptate nobis facere in quos.
+                        <Card title="4.How do you evaluate the articles shared other users?" adClass="accardion__item wow ">
+                            <p className="">
+                                The evaluation process is a way to revise your forms in order to protect the main principle of this platform.
+                                Every article passes through a very strict evaluation process before being approved;
+                                If the article has any content which goes against the platform principles or misstate, it will not be accepted.
                             </p>
                         </Card>
                     </Accordion>
