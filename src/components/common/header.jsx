@@ -91,7 +91,7 @@ function Header(props) {
                     </li>
 
                     <li className="navbar__menu-item">
-                        <Link to={`${process.env.PUBLIC_URL}/about`} className="navbar__menu-link">
+                        <Link to={`${process.env.PUBLIC_URL}/pages/about`} className="navbar__menu-link">
                             About Us
                         </Link>
                     </li>
