@@ -39,17 +39,12 @@ function AboutOne() {
                                 design
                                 solutions to bring about equitable outcomes.</h2>
                             <p>
-                                Donec sollicitudin molestie malesuada.
-                                Donec sollicitudin molestie malesuada.
-                                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit.
-                                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada.
-                                Sed
-                                porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                                posuere
-                                cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet
-                                ligula.
-                                Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+                                SFC is a learning network of 6 members, from Oujda,Morocco.
+                                We share scientific ideas, opinions, stories, articles about Ecology and Eco-linguistics.
+                                Our first aim is to develop materials(stories, articles, thoughts,articles…etc) which consider humans not only as part of society,
+                                but also as part of the larger ecosystems that life depends on.
+                                The second aim is to encourage people to spread environmental awareness in order to achieve ecological stability and social justice.
+                                Join our community and share your own articles & ideas!.
                             </p>
                         </div>
                     </div>
