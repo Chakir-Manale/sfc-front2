@@ -1,0 +1,94 @@
+// Get Products
+export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS';
+
+// Refresh Store
+export const REFRESH_STORE = 'REFRESH_STORE';
+
+//Quick     
+export const SHOW_QUICKVIEW = 'SHOW_QUICKVIEW';
+export const CLOSE_QUICKVIEW = 'CLOSE_QUICKVIEW';
+
+// Cart
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+export const CHANGE_QTY = 'CHANGE_QTY';
+export const CHANGE_SHIPPING = 'CHANGE_SHIPPING';
+
+// WishList
+export const TOGGLE_WISHLIST = 'TOGGLE_WISHLIST';
+export const REMOVE_FROM_WISHLIST = 'REMOVE_FROM_WISHLIST';
+
+// Compare
+export const ADD_TO_COMPARE = 'ADD_TO_COMPARE';
+export const REMOVE_FROM_COMPARE = 'REMOVE_FROM_COMPARE';
+export const RESET_COMPARE = 'RESET_COMPARE';
+
+//Product Filters
+export const SORT_BY = 'SORT_BY';
+export const CATEGORY_FILTER = 'CATEGORY_FILTER';
+export const RESET_FILTER = 'RESET_FILTER';
+export const SIZE_FILTER = 'SIZE_FILTER';
+export const COLOR_FILTER = 'COLOR_FILTER';
+export const BRAND_FILTER = 'BRAND_FILTER';
+export const PRICE_FILTER = 'PRICE_FILTER';
+export const RATING_FILTER = 'RATING_FILTER';
+
+//Newsletter
+export const HIDE_NEWSLETTER_MODAL = 'HIDE_NEWSLETTER_MODAL';
+
+// Modal
+export const SHOW_MODAL = 'SHOW_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const REMOVE_NEWSLETTER = 'REMOVE_NESLETTER';
+
+//User
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const REGISTER = 'REGISTER';
+export const GET_TOKEN = 'GET_TOKEN';
+export const GET_ALL_ROLES = 'GET_ALL_ROLES';
+export const GET_ALL_AREAS = 'GET_ALL_AREAS';
+export const PROFILE = 'PROFILE';
+
+//Variantss
+export const GET_VARIANT_BY_CATEGORY = "GET_VARIANT_BY_CATEGORY";
+export const GET_SIMILAR_PRODUCTS = "GET_SIMILAR_PRODUCTS";
+export const GET_ALL_VARIANTS = "GET_ALL_VARIANTS";
+export const GET_VARIANT_DETAIL = "GET_VARIANT_DETAIL";
+export const GET_VARIANT_BY_CATEGORY_SLUG = "GET_VARIANT_BY_CATEGORY_SLUG";
+export const GET_MY_ORDERS_LIST = "GET_MY_ORDERS_LIST";
+
+//Products
+export const GET_ALL_PRODUCTS = "GET_ALL_PRODUCTS";
+
+//Categories
+export const GET_CATEGORIES = 'GET_CATEGORIES';
+
+
+//Filters
+export const ADD_FILTER_BY_BRAND_SLUG = "ADD_FILTER_BY_BRAND_SLUG";
+export const ADD_FILTER_BY_CATEGORY_SLUG = "ADD_FILTER_BY_CATEGORY_SLUG";
+export const ADD_FILTER_BY_PRICE_RANGE = "ADD_FILTER_BY_PRICE_RANGE";
+export const ADD_FILTER_BY_SEARCH_KEYWORD = "ADD_FILTER_BY_SEARCH_KEYWORD";
+export const RESET_VARIANT_FILTERS = "RESET_VARIANT_FILTERS";
+export const REFRESH_VARIANT_FILTERS = "REFRESH_VARIANT_FILTERS";
+
+
+//CartList
+export const GET_CART_LIST = 'GET_CART_LIST';
+export const CLEAR_CART_LIST = 'CLEAR_CART_LIST';
+export const REMOVE_FROM_CART_LIST = "REMOVE_FROM_CART_LIST";
+export const ADD_TO_CART_LIST = "ADD_TO_CART_LIST";
+export const REFRESH_CART_LIST = "REFRESH_CART_LIST"
+
+//WishList
+export const GET_WISH_LIST = 'GET_WISH_LIST';
+export const CLEAR_WISH_LIST = 'CLEAR_WISH_LIST';
+export const REMOVE_FROM_WISH_LIST = "REMOVE_FROM_WISHLIST";
+export const ADD_TO_WISH_LIST = "ADD_TO_WISHLIST";
+
+//CONTACT_MESSAGES
+export const SEND_CONTACT_MESSAGE = "SEND_CONTACT_MESSAGE";
+
+//Addresses
+export const SAVE_ORDER = "SAVE_ORDER";
